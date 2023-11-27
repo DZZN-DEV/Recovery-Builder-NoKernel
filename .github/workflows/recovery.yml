@@ -1,18 +1,5 @@
 name: Building recovery
 
-on:
-#  release:
-#    types: [published]
-#  push:
-#    branches:
-#      - master
-#    paths:
-#      - '.config'
-#  schedule:
-#    - cron: 0 8 * * 5
-  watch:
-    types: [started]
-
 env:
   MANIFEST: https://github.com/SHRP/manifest.git
   MANIFEST_BRANCH: v3_9.0
